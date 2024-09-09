@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PurchaseDataSet1" targetNamespace="http://tempuri.org/PurchaseDataSet1.xsd" xmlns:mstns="http://tempuri.org/PurchaseDataSet1.xsd" xmlns="http://tempuri.org/PurchaseDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="My_DataConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="My_DataConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Optics_Management_System.Properties.Settings.GlobalReference.Default.My_DataConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PurchaseDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="PurchaseDataSet1" msprop:Generator_UserDSName="PurchaseDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="purchaseframe" msprop:Generator_TableClassName="purchaseframeDataTable" msprop:Generator_TableVarName="tablepurchaseframe" msprop:Generator_TablePropName="purchaseframe" msprop:Generator_RowDeletingName="purchaseframeRowDeleting" msprop:Generator_RowChangingName="purchaseframeRowChanging" msprop:Generator_RowEvHandlerName="purchaseframeRowChangeEventHandler" msprop:Generator_RowDeletedName="purchaseframeRowDeleted" msprop:Generator_UserTableName="purchaseframe" msprop:Generator_RowChangedName="purchaseframeRowChanged" msprop:Generator_RowEvArgName="purchaseframeRowChangeEvent" msprop:Generator_RowClassName="purchaseframeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
+              <xs:element name="Frame_Name" msprop:Generator_ColumnVarNameInTable="columnFrame_Name" msprop:Generator_ColumnPropNameInRow="Frame_Name" msprop:Generator_ColumnPropNameInTable="Frame_NameColumn" msprop:Generator_UserColumnName="Frame_Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Frame_Type" msprop:Generator_ColumnVarNameInTable="columnFrame_Type" msprop:Generator_ColumnPropNameInRow="Frame_Type" msprop:Generator_ColumnPropNameInTable="Frame_TypeColumn" msprop:Generator_UserColumnName="Frame_Type">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Design_No" msprop:Generator_ColumnVarNameInTable="columnDesign_No" msprop:Generator_ColumnPropNameInRow="Design_No" msprop:Generator_ColumnPropNameInTable="Design_NoColumn" msprop:Generator_UserColumnName="Design_No">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Color" msprop:Generator_ColumnVarNameInTable="columnColor" msprop:Generator_ColumnPropNameInRow="Color" msprop:Generator_ColumnPropNameInTable="ColorColumn" msprop:Generator_UserColumnName="Color">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" msprop:Generator_UserColumnName="Quantity" type="xs:decimal" />
+              <xs:element name="Purchase_Price" msprop:Generator_ColumnVarNameInTable="columnPurchase_Price" msprop:Generator_ColumnPropNameInRow="Purchase_Price" msprop:Generator_ColumnPropNameInTable="Purchase_PriceColumn" msprop:Generator_UserColumnName="Purchase_Price" type="xs:decimal" />
+              <xs:element name="Data" msprop:Generator_ColumnVarNameInTable="columnData" msprop:Generator_ColumnPropNameInRow="Data" msprop:Generator_ColumnPropNameInTable="DataColumn" msprop:Generator_UserColumnName="Data">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="purchaselens" msprop:Generator_TableClassName="purchaselensDataTable" msprop:Generator_TableVarName="tablepurchaselens" msprop:Generator_TablePropName="purchaselens" msprop:Generator_RowDeletingName="purchaselensRowDeleting" msprop:Generator_RowChangingName="purchaselensRowChanging" msprop:Generator_RowEvHandlerName="purchaselensRowChangeEventHandler" msprop:Generator_RowDeletedName="purchaselensRowDeleted" msprop:Generator_UserTableName="purchaselens" msprop:Generator_RowChangedName="purchaselensRowChanged" msprop:Generator_RowEvArgName="purchaselensRowChangeEvent" msprop:Generator_RowClassName="purchaselensRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
+              <xs:element name="Lens_Name" msprop:Generator_ColumnVarNameInTable="columnLens_Name" msprop:Generator_ColumnPropNameInRow="Lens_Name" msprop:Generator_ColumnPropNameInTable="Lens_NameColumn" msprop:Generator_UserColumnName="Lens_Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Lens_Type" msprop:Generator_ColumnVarNameInTable="columnLens_Type" msprop:Generator_ColumnPropNameInRow="Lens_Type" msprop:Generator_ColumnPropNameInTable="Lens_TypeColumn" msprop:Generator_UserColumnName="Lens_Type">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Lens_For" msprop:Generator_ColumnVarNameInTable="columnLens_For" msprop:Generator_ColumnPropNameInRow="Lens_For" msprop:Generator_ColumnPropNameInTable="Lens_ForColumn" msprop:Generator_UserColumnName="Lens_For">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Company_Name" msprop:Generator_ColumnVarNameInTable="columnCompany_Name" msprop:Generator_ColumnPropNameInRow="Company_Name" msprop:Generator_ColumnPropNameInTable="Company_NameColumn" msprop:Generator_UserColumnName="Company_Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Lens_Index" msprop:Generator_ColumnVarNameInTable="columnLens_Index" msprop:Generator_ColumnPropNameInRow="Lens_Index" msprop:Generator_ColumnPropNameInTable="Lens_IndexColumn" msprop:Generator_UserColumnName="Lens_Index">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Dia" msprop:Generator_ColumnVarNameInTable="columnDia" msprop:Generator_ColumnPropNameInRow="Dia" msprop:Generator_ColumnPropNameInTable="DiaColumn" msprop:Generator_UserColumnName="Dia">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" msprop:Generator_UserColumnName="Quantity" type="xs:decimal" />
+              <xs:element name="Purchase_Price" msprop:Generator_ColumnVarNameInTable="columnPurchase_Price" msprop:Generator_ColumnPropNameInRow="Purchase_Price" msprop:Generator_ColumnPropNameInTable="Purchase_PriceColumn" msprop:Generator_UserColumnName="Purchase_Price" type="xs:decimal" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:purchaseframe" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="purchaselens_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:purchaselens" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
